@@ -11,8 +11,7 @@ import javax.persistence.*;
 
 @Inheritance
 @DiscriminatorColumn(name="figura_type")
-@Entity
-@Table(name="figuras")
+@Entity(name="figuras")
 public abstract class Figura {
 
     @Id

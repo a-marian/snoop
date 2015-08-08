@@ -9,8 +9,7 @@ import java.util.List;
  * Created by root on 17/07/15.
  */
 
-@Entity
-@Table(name="WORKSPACE")
+@Entity(name = "workSpace")
 public class WorkSpace {
 
     @Id
